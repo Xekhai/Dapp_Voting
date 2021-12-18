@@ -1,6 +1,6 @@
 import "./styles/landing.css";
 import loadable from "@loadable/component";
-const ScrollTextLand = loadable(() => import("../components/ScrollTextLand"));
+const ScrollTextLand = loadable(() => import("./components/ScrollTextLand"));
 
 const Landing = () => {
   return (

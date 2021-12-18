@@ -1,6 +1,6 @@
 import "./styles/footer.css";
 import loadable from "@loadable/component";
-const ScrollText = loadable(() => import("./ScrollText"));
+const ScrollText = loadable(() => import("./statics/ScrollText"));
 
 const Footer = () => {
   <ScrollText />;
